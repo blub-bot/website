@@ -1,38 +1,16 @@
-# create-svelte
+# blub.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+"blub." is a Discord bot that is currently under development by `Conway#1000` with the sole intention of
+hoping to bring more interaction to your Discord server by offering:
 
-## Creating a project
+- Interactive games that bring the whole server together
+- Leaderboards to keep people engaged and maybe even bring some *friendly* competition
+- Ease-of-access to make sure that your setup is as flawless as possible
+- Much more!
 
-If you're seeing this, you've probably already done this step. Congrats!
+There will be more info on the release of the bot as more is being developed.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## The current state of development: PRE-RELEASE
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> Made with ♥ by Devin Conway
