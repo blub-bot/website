@@ -5,7 +5,7 @@
     img {
         position: absolute;
 
-        top: 17.5rem;
+        top: clamp(42rem, 32vh, 17.5rem);
         left: 6rem;
 
         width: 200px;
