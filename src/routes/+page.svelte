@@ -3,6 +3,7 @@
 
 	import Desc from '../components/Desc.svelte';
 	import Navbar from '../components/Navbar.svelte';
+	import Blub from '../components/Blub.svelte';
 </script>
 
 <svelte:head>
@@ -23,6 +24,8 @@
 
 <!--"Navbar"-->
 <Navbar />
+
+<Blub />
 
 <style>
 	#header {
