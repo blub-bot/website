@@ -12,7 +12,16 @@ body {
 	font-family: 'Gaegu', sans-serif;
 	text-align: center;
 	padding: 0;
-	margin: 0;
+	margin: auto;
 	width: 100%;
 	height: 100%;
+	margin-inline: auto;
+}
+
+@media only screen and (max-width: 280px) {
+
+	* {
+		visibility: hidden;
+	}
+
 }

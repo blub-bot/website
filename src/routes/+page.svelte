@@ -10,6 +10,10 @@
 	<title>blub. discord bot : coming soon</title>
 </svelte:head>
 
+
+<!--For galaxy fold because icky-->
+<h3 id="not-avail">not available</h3>
+
 <!--Header-->
 <h1 id="header">blub<span style="letter-spacing:0;">.</span></h1>
 
@@ -30,20 +34,31 @@
 <style>
 	#header {
 		top: 0;
-		margin: 0;
+		margin: auto;
+		margin-inline: auto;
+		width: 100%;
 
-		font-size: clamp(5rem, 13vw, 16rem);
+		font-size: clamp(4rem, 13vw, 16rem);
 		line-height: 265px;
 		letter-spacing: clamp(3rem, 15vw, 20rem);
 	}
 
-	#coming-soon {
+	#coming-soon, #not-avail {
 		font-size: clamp(3rem, 7vw, 8rem);
-		margin: 0;
+		margin: auto;
+		margin-inline: auto;
 	}
 
 	#what-is {
 		font-size: clamp(2rem, 5vw, 4rem);
 		text-decoration: underline;
+	}
+
+	@media only screen and (max-width: 280px) {
+
+		#not-avail {
+			visibility: visible;
+		}
+
 	}
 </style>
