@@ -1,8 +1,8 @@
 <script>
 	let buttons = [
-		{ name: 'roadmap', link: 'https://example.com' },
+		{ name: 'roadmap', link: 'https://trello.com/b/bay8Yavw/blub-bot-roadmap' },
 		{ name: 'github', link: 'https://github.com/blub-bot' },
-		{ name: 'discord', link: 'https://discord.gg/dbl' }
+		{ name: 'discord', link: 'https://discord.gg/FA8EhxjA9Z' }
 	];
 </script>
 
