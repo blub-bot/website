@@ -3,7 +3,6 @@
 
 	import Desc from '../components/Desc.svelte';
 	import Navbar from '../components/Navbar.svelte';
-	import Blub from '../components/Blub.svelte';
 </script>
 
 <svelte:head>
@@ -15,7 +14,10 @@
 <h3 id="not-avail">not available</h3>
 
 <!--Header-->
-<h1 id="header">blub<span style="letter-spacing:0;">.</span></h1>
+<div class="header" style="margin-top: 0;">
+	<img src="/images/blub.png" alt="blub" style="width:25rem; padding:0;">
+	<h1 id="header">blub<span style="letter-spacing:0;">.</span></h1>
+</div>
 
 <!--Coming Soon Text-->
 <h3 id="coming-soon">coming soon.</h3>
@@ -28,8 +30,6 @@
 
 <!--"Navbar"-->
 <Navbar />
-
-<Blub />
 
 <style>
 	#header {
@@ -54,7 +54,11 @@
 		text-decoration: underline;
 	}
 
-	@media only screen and (max-width: 280px) {
+	#not-avail {
+		visibility: hidden;
+	}
+
+	@media only screen and (max-width: 340px) {
 
 		#not-avail {
 			visibility: visible;
